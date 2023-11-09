@@ -1,7 +1,7 @@
 import React from "react";
 
-function TicketPage() {
-  return <div>TicketPage</div>;
+function TicketPage({ params }) {
+  return <div>TicketPage ${params.id}</div>;
 }
 
 export default TicketPage;
