@@ -3,7 +3,7 @@ import Link from "next/link";
 function Nav() {
   return (
     <div className="flex justify-between items-center bg-black p-4 ">
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 text-white">
         <Link href="/">
           <p>Home</p>
         </Link>
