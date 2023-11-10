@@ -1,5 +1,7 @@
 import mongoose, { Schema } from "mongoose";
-import dbConnect from "@/utils/dbConnect";
+
+mongoose.connect(process.env.MONGODB_URI);
+mongoose.Promise = global.Promise;
 
 const ticketSchema = new Schema(
   {
